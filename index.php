@@ -83,6 +83,12 @@ $x = 59.85;
 var_dump(is_int($x));
 ?>
 
+<?php 
+$members = array("S.coups", "Jeonghan", "Joshua","Jun","Hoshi","Wonwoo","Woozi","DK","Mingyu","The8","Seungkwan","Vernon", "Dino");
 
+foreach ($members as $member){
+    echo"<li>$member</li>";
+}
+?>
 </body>
 </html>
